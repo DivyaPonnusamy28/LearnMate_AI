@@ -1,0 +1,239 @@
+.stApp{
+    background:#F4F8FC;
+}
+
+.block-container{
+    padding-top:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+/* Card */
+
+.card{
+
+background:white;
+
+padding:22px;
+
+border-radius:18px;
+
+box-shadow:0px 8px 20px rgba(0,0,0,.08);
+
+transition:.3s;
+
+margin-bottom:20px;
+
+}
+
+.card:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0px 15px 35px rgba(0,0,0,.15);
+
+}
+
+/* Title */
+
+.big-title{
+
+font-size:42px;
+
+font-weight:700;
+
+color:#2563EB;
+
+}
+
+/* Subtitle */
+
+.subtitle{
+
+font-size:18px;
+
+color:#555;
+
+}
+
+/* AI Response */
+
+.response{
+
+background:white;
+
+padding:25px;
+
+border-radius:20px;
+
+border-left:7px solid #2563EB;
+
+box-shadow:0px 5px 20px rgba(0,0,0,.08);
+
+}
+
+/* Buttons */
+
+.stButton>button{
+
+background:#2563EB;
+
+color:white;
+
+border:none;
+
+border-radius:12px;
+
+height:50px;
+
+font-size:17px;
+
+font-weight:600;
+
+}
+
+.stButton>button:hover{
+
+background:#1D4ED8;
+
+}
+
+/* Input */
+
+.stTextInput input{
+
+border-radius:12px;
+
+}
+
+header{
+
+visibility:hidden;
+
+}
+
+footer{
+
+visibility:hidden;
+
+}
+
+#MainMenu{
+
+visibility:hidden;
+
+}
+
+.stMetric{
+
+background:white;
+
+padding:15px;
+
+border-radius:15px;
+
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"]{
+
+border-radius:18px;
+
+transition:.3s;
+
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"]:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0px 10px 30px rgba(0,0,0,.15);
+
+}
+
+.stButton>button{
+
+border-radius:12px;
+
+font-weight:bold;
+
+height:45px;
+
+}
+
+.stButton>button:hover{
+
+transform:scale(1.02);
+
+transition:.2s;
+
+}
+
+/* Login Inputs */
+
+/* ---------- Input Boxes ---------- */
+
+.stTextInput input{
+
+    background-color:#F8FAFC !important;
+
+    color:#111827 !important;
+
+    border:2px solid #CBD5E1 !important;
+
+    border-radius:12px !important;
+
+    padding:12px !important;
+
+}
+
+.stTextInput input:focus{
+
+    border:2px solid #2563EB !important;
+
+    box-shadow:0 0 8px rgba(37,99,235,.35);
+
+}
+
+.stTextInput label{
+
+    color:#1F2937;
+
+    font-weight:600;
+
+}
+
+/* Login Button */
+
+.stButton>button{
+
+    background:linear-gradient(90deg,#2563EB,#7C3AED);
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    height:50px;
+
+}
+
+.stButton>button:hover{
+
+    background:linear-gradient(90deg,#1D4ED8,#6D28D9);
+
+    transform:scale(1.02);
+
+}
+
+/* Checkbox */
+
+.stCheckbox{
+
+    margin-top:10px;
+
+}

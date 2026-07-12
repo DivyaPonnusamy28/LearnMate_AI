@@ -1,0 +1,154 @@
+/* ==========================
+Overall App
+========================== */
+
+.main {
+    background: #f6f8fc;
+}
+
+/* ==========================
+Question Title
+========================== */
+
+h3 {
+    color: #1e293b;
+    font-weight: 700;
+}
+
+/* ==========================
+Radio Group
+========================== */
+
+div[role="radiogroup"] {
+    gap: 12px;
+}
+
+/* ==========================
+Option Card
+========================== */
+
+div[role="radiogroup"] > label {
+
+    background: white;
+
+    border: 2px solid #dbe4f0;
+
+    border-radius: 15px;
+
+    padding: 18px;
+
+    margin-bottom: 15px;
+
+    transition: 0.25s;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,.05);
+
+}
+
+div[role="radiogroup"] > label:hover{
+
+    border:2px solid #2563eb;
+
+    background:#eff6ff;
+
+    transform:translateY(-2px);
+
+}
+
+/* ==========================
+Hide default radio circle
+========================== */
+
+div[role="radiogroup"] input{
+
+    display:none;
+
+}
+
+/* ==========================
+Selected Card
+========================== */
+
+div[role="radiogroup"] label:has(input:checked){
+
+    background:#2563eb;
+
+    color:white;
+
+    border:2px solid #2563eb;
+
+    box-shadow:0 10px 20px rgba(37,99,235,.25);
+
+}
+
+/* ==========================
+Buttons
+========================== */
+
+.stButton>button{
+
+    border-radius:12px;
+
+    height:48px;
+
+    font-weight:600;
+
+}
+
+/* ==========================
+Metric
+========================== */
+
+[data-testid="metric-container"]{
+
+    border-radius:15px;
+
+    background:white;
+
+    padding:18px;
+
+    border:1px solid #dbe4f0;
+
+}
+
+/* ==========================
+Progress
+========================== */
+
+.stProgress>div>div{
+
+    border-radius:20px;
+
+}
+
+/* ==========================
+Success Box
+========================== */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
+
+/* ==========================
+Error Box
+========================== */
+
+.stError{
+
+    border-radius:12px;
+
+}
+
+/* ==========================
+Info Box
+========================== */
+
+.stInfo{
+
+    border-radius:12px;
+
+}
