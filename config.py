@@ -1,10 +1,15 @@
-from dotenv import load_dotenv
 import os
+import streamlit as st
+from dotenv import load_dotenv
 
+# Load local .env (for local development)
 load_dotenv()
 
 # API Key
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if "GEMINI_API_KEY" in st.secrets:
+    GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+else:
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # App Details
 APP_NAME = "LearnMate AI"
